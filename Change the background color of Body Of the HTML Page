@@ -1,0 +1,12 @@
+<Html> 
+<Head>  <H1> Change the background color of Body Of the HTML Page </H1>
+<Title>  
+BG COLOUR
+</Title>
+</Head>
+<Body bgcolor="RED"> 
+Hello World!!!!!!!!!!!!!!!!!!!!!!
+</Body>
+</Html>
+
+ 
