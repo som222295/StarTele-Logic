@@ -1,0 +1,19 @@
+<script type = "text/javascript">
+function fibonacci(fib)
+{
+	var fib1=0;
+	var fib2=1;
+	var sum;
+	var i=0;
+	for (i = 0; i < fib; i++)
+	{
+		sum=fib1+fib2;
+		fib1=fib2;
+		fib2=sum;
+	}
+	return fib2;
+}
+
+document.write("Fibonacci(1): "+fibonacci(2)+"<br>");
+document.write("Fibonacci(4): "+fibonacci(5)+"<br>");
+</script>
